@@ -52,7 +52,8 @@ export default function Products() {
             <CardMedia
               className={classes.cardMedia}
               // image="https://source.unsplash.com/random"
-              image="https://source.unsplash.com/collection/333899"
+              // image="https://source.unsplash.com/collection/333899"
+              image={product.image}
               title="Image title"
             />
             <CardContent className={classes.cardContent}>
